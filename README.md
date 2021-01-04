@@ -5,3 +5,4 @@ Based on https://medium.com/kite-srm/setting-up-sidekiq-6-0-on-aws-b4f2e01f451c
 
 Updates:
 - `systemd` is used instead of `upstart`
+- Support for Linux 2 AMI
