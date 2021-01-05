@@ -1,5 +1,7 @@
-# awsebs-rails-sidekiq-config
+# AWS EBS Rails Sidekiq Config
 AWS Elastic Beanstalk Sidekiq Worker Config
+
+This is an attempt to run rails API, Redis Server and Sidekiq Worker on a AWS Beanstalk web environment. This type of configuration is suitable for feature or staging environments. For the production environment, consider using ElasticCache for redis server and separate web/ worker environment for sidekiq workers.
 
 Based on
 1. https://medium.com/kite-srm/setting-up-sidekiq-6-0-on-aws-b4f2e01f451c
